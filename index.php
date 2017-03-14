@@ -21,7 +21,7 @@
                     Õpikeskkonnas peab olema võimalik vastata teoreetilistele küsimustele ja
                     lahendada praktiline ülesanne. Punktid arvutatakse automaatselt kokku ja
                     kuvatakse pärast vastuste salvestamist. Tulemused salvestatakse logi faili
-                    ja genereeritakse pingerida. Õpikeskkond luuakse Tartu Kutsehariduskeskuse
+                    ja genereeritakse pingerida.Väga meeldiv ülesanne. Õpikeskkond luuakse Tartu Kutsehariduskeskuse
                     IKT osakonnale, seega kasutajaliidese disaini loomisel tuleb lähtuda Tartu
                     Kutsehariduskeskuse logost ja värvilahendustest.
    				<p>
