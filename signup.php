@@ -8,7 +8,7 @@
     $email = $_POST['email'];
     $password = $_POST['password'];
        if($name == '' || $email == '' || $password == ''){
-          echo "Please Fill all the fields";
+          echo "Täida kõik väljad";
        }
        else{
            $query = "INSERT INTO user (name,email,password,user_type)
@@ -31,13 +31,13 @@
           <form class="form-horizontal" action="signup.php" method="POST">
           <fieldset>
             <div id="legend">
-              <legend class="">Registeeri</legend>
+              <legend class="">Registeeru</legend>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">Nimi</label>
+              <label class="control-label" for="username">Isikukood</label>
               <div class="controls">
                 <input id="name" name="name" placeholder="" class="form-control input-lg" type="text"/>
-                <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+                <p class="help-block"></p>
               </div>
             </div>
          
@@ -50,7 +50,7 @@
             </div>
          
             <div class="control-group">
-              <label class="control-label" for="password">Password</label>
+              <label class="control-label" for="password">Parool</label>
               <div class="controls">
                 <input id="password" name="password" placeholder="" class="form-control input-lg" type="password"/>
                 <p class="help-block">Paroolis peab olema vähemalt 6 tähte</p>
@@ -58,9 +58,9 @@
             </div>
          
             <div class="control-group">
-              <!-- Button -->
+              <!-- nupp -->
               <div class="controls">
-                <input type="submit" name ="submit" class="btn btn-success" value="Register"/>
+                <input type="submit" name ="submit" class="btn btn-success" value="Registeeri"/>
               </div>
             </div>
           </fieldset>

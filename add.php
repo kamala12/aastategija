@@ -54,43 +54,43 @@ if (isset($_POST['submit'])) {
               <legend class="text-center">Add Questions</legend>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">Question Number</label>
+              <label class="control-label" for="username">Küsimuse Number</label>
                <div class="controls">
                 <input name="question_number" value="<?php echo $next; ?>" placeholder="" class="form-control input-lg" type="number" />
               </div>
             </div>
              <div class="control-group">
-              <label class="control-label" for="text">Question Text</label>
+              <label class="control-label" for="text">Küsimus</label>
               <div class="controls">
                 <input name="question_text" placeholder="" class="form-control input-lg" type="text" />
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label" for="choice1">#Choice 1</label>
+              <label class="control-label" for="choice1">#Valik 1</label>
               <div class="controls">
                 <input  name="choices1" placeholder="" class="form-control input-lg" type="text" />
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">#Choice 2</label>
+              <label class="control-label" for="username">#Valik 2</label>
               <div class="controls">
                 <input name="choices2" placeholder="" class="form-control input-lg" type="text"/>
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">#Choice 3</label>
+              <label class="control-label" for="username">#Valik 3</label>
               <div class="controls">
                 <input id="choices3" name="choices3" placeholder="" class="form-control input-lg" type="text"/>
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">#Choice 4</label>
+              <label class="control-label" for="username">#Valik 4</label>
               <div class="controls">
                 <input name="choices4" placeholder="" class="form-control input-lg" type="text"/>
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label" for="username">Correct Choice Number</label>
+              <label class="control-label" for="username">Õige vastuse number</label>
                <div class="controls">
                 <input id="username" name="correct_choice" placeholder="" class="form-control input-lg" type="number"/>
               </div>

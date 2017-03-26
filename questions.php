@@ -13,7 +13,7 @@
    $count = $results->num_rows;
 ?>
 <div class="jumbotron">
-	<h3 class="text-center"><?php echo "Question ".$number." of ".$count; ?></h3>
+	<h3 class="text-center"><?php echo "Küsimus ".$number."  ".$count."'st  "; ?></h3>
 	<h4 class="text-center">What Does PHP Stands for ?</h4>
 </div>
 <form class="form-horizontal" action="process.php" method="post">
@@ -23,7 +23,7 @@
 			<?php echo $row['text']; ?></li>
 	 <?php endwhile; ?>
 	</ul>
-	<input type="submit" value="Next" class="btn btn-success center-block btn-block" name="submit"/>
+	<input type="submit" value="Järgmine" class="btn btn-success center-block btn-block" name="submit"/>
 	<input type="hidden" name="number" value ="<?php echo $number; ?>"/>
 </form>
 <?php include 'includes/footer.php'; ?>

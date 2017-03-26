@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>IKT Test</title>
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -10,14 +11,14 @@
     <nav class="navbar navbar-inverse">
  	 	<div class="container-fluid">
  	 		<div class="navbar-header">
- 	 			<a class="navbar-brand" href="#"></a>
+                <a href="index.php" class="navbar-left"><img src="khk_logo.png"></a>
  	 		</div>
  	 		<div>
  	 		    <ul class="nav navbar-nav">
 					<?php  if(isset($_SESSION['user']) && $_SESSION['user_type'] == 2 ) :?>
-					<li></li>
+					<li> </li>
 					<?php else : ?>
- 	 		    	<li><a href="index.php">Koduleht</a></li>
+ 	 		    	<li></li>
 					<?php endif; ?>
  	 		    </ul>
  	 			<ul class="nav navbar-nav navbar-right">
